@@ -10,21 +10,27 @@ export const Container = styled.div`
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  padding: .8em;
+  padding: 0.8em;
   border: 1px solid;
   align-items: center;
 
   ul {
-    padding-top: .8em;
+    padding-top: 0.8em;
     list-style-type: none;
-    
-    li{
-      padding: .8em;
+
+    li {
+      padding: 0.8em;
     }
   }
 `;
 
 export const Title = styled.h1`
-  color: #FFBF47;
+  color: #ffbf47;
   font-weight: 700;
+`;
+
+export const ImageContainer = styled.div`
+  img {
+    background-color: #fff;
+  }
 `;

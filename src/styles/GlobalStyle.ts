@@ -1,9 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
-
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;400;500;600;700;800;900&display=swap');
-
   * {
       margin: 0;
       padding: 0;
@@ -27,12 +24,13 @@ export default createGlobalStyle`
       font-family: 'Gothic A1', sans-serif;
     }
 
-    button, a{
+    button, a {
       cursor: pointer;
     }
 
     a {
       text-decoration: none;
+      color: #FFF;
     }
 
     // Responsive
